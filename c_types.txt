@@ -1,0 +1,47 @@
+/* BASIC C TYPES */
+
+// BASIC C TYPES:
+char char1, char2, char3;		//can contain basic character set / can be signed or unsigned
+signed char sc1, sc2, sc3;		//signed byte [-127..+127]
+unsigned char uc1, uc2, uc3;		//unsigned byte [0..255]
+
+short sh1, sh2, sh3;			//signed word [-32767..+32767]
+short int si1, si2, si3;		//same type
+signed short ss1, ss2, ss3;		//same type
+signed short int ssi1, ssi2, ssi3;	//same type
+
+unsigned short us1, us2, us3;		//unsigned word [0..65535]
+unsigned short int usi1, usi2, usi3;	//same type
+
+int i1, i2, i3;				//signed word type [−32767..+32767]
+signed s1, s2, s3;			//same type
+signed int sgi1, sgi2, sgi3;		//same type
+
+unsigned uns1, uns2, uns3;		//unsigned word [0..65535]
+unsigned int ui1, ui2, ui3;		//same type
+
+long lg1, lg2, lg3;			//signed dword type [−2147483647..+2147483647]
+long int li1, li2, li3;			//same type
+signed long slg1, slg2, slg3;		//same type
+signed long int sli1, sli2, sli3;	//same type
+
+unsigned long ul1, ul2, ul3;		//unsigned dword type [0..4294967295]
+unsigned long int uli1, uli2, uli3;	//same type
+
+long long ll1, ll2, ll3;			//signed double word type [−9223372036854775807..+9223372036854775807]
+long long int lli1, lli2, lli3;			//same type
+signed long long sll1, sll2, sll3;		//same type
+signed long long int slli1, slli2, slli3;	//same type
+
+unsigned long long ull1, ull2, ull3;		//unsigned double word type [0..18446744073709551615]
+unsigned long long int ulli1, ulli2, ulli3;	//same type
+
+float fl1, fl2, fl3;			//on most systems, this is the single-precision binary floating-point format (32 bits)
+
+double db1, db2, db3;			//on most systems, this is the double-precision binary floating-point format (64 bits)
+
+long double ld1, ld2, ld3;		//It can be either extended-precision floating-point format
+					//(80 bits, but typically 96 bits or 128 bits in memory with
+					//padding bytes), the non-IEEE "double-double" (128 bits),
+					//IEEE 754 quadruple-precision floating-point format (128 bits),
+					//or the same as double.
